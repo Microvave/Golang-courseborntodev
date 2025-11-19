@@ -1,0 +1,10 @@
+{
+    "WorkingDir": ".",
+    "SourceDir": [
+        "."
+    ],
+    "SourceExt": [".c", ".cpp", ".go", ".h"],
+    "BuildCmd": "go build -o main.exe main.go",
+    "RunCmd": "C:\\Users\\sunea\\Golang-course\\main.exe",
+    "Decreasing": 1
+}
