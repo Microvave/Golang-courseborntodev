@@ -23,13 +23,12 @@ func main() {
 		case 1:
 			fmt.Scan(&name)
 			courseName = append(courseName, name)
-			// fmt.Println(name)
-			fmt.Println(courseName)
+			// fmt.Println(courseName)
 		case 2:
-			fmt.Println(courseName)
+			fmt.Println("-", courseName)
 		case 3:
 			fmt.Println("ลาก่อน")
-			break
+			return
 		default:
 			fmt.Println("กรุณากรอกตัวเลข 1-3")
 		}
